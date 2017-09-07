@@ -1,0 +1,8 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div>我是父组件</div>
+<div>
+<input placeholder="请输入欧索的关键字" [(ngModel)]="search"/>
+<app-stock-search [keyWord]="search" (searchResult)=""></app-stock-search>
+</div>
+
+
